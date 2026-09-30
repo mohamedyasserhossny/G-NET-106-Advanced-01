@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region question 1
+            //a)class ...<t> , using multibale type instead of using one type
+            #endregion
         }
     }
 }
