@@ -80,6 +80,9 @@
             #endregion
             #region question 12
             mulitble<int, string>(10, "mohamed");
+            #region QUESTION 14
+            // RETURN DEFULT VALUE FOR T TYPE
+            #endregion
         } 
         #endregion
 
