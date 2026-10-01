@@ -10,6 +10,15 @@
             y = temp;
 
         }
+
+        static max findmax<max> (ref max a,ref max b)where max:IComparable<max>
+        {
+            if ( a.CompareTo(b)>0 )
+            {
+                return a;
+            }
+            return b;
+        }
         static void Main(string[] args)
         {
             
@@ -34,6 +43,9 @@
             swap(ref a, ref b);
             Console.WriteLine(a);
             Console.WriteLine(b);
+            #endregion
+            #region question 5
+            Console.WriteLine(findmax(ref a, ref b));
             #endregion
         }
         
