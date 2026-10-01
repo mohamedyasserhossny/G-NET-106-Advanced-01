@@ -17,6 +17,13 @@ namespace advance_assigment1
         {
             return Value;
         }
+        #region question 11
+        // t must inheret from base class continer
+        static void baseclass<t>(t x) where t : continer<t>
+        {
+
+        } 
+        #endregion
 
     }
 }
