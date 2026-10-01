@@ -25,6 +25,13 @@
         {
             Console.WriteLine(x); // مينفعش في المان ندخل ال اكس دي بي حاجه سترينج او ريفرنس تايب
         }
+        #region question 8 
+        // class is a constriant for a refrence type
+        static void printclass<T>(T y) where T : struct
+        {
+            Console.WriteLine(y); // مينفعش في المان ندخل ال الواي دي بي حاجه فاليو تايب
+        }
+        #endregion
         #endregion
         static void Main(string[] args)
         {
