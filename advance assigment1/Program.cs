@@ -10,7 +10,11 @@
             y = temp;
 
         }
-        
+        static void mulitble <t1,t2>(t1 fisrt , t2 second)
+        {
+            Console.WriteLine(fisrt);
+            Console.WriteLine(second);
+        }
 
         static max findmax<max> (ref max a,ref max b)where max:IComparable<max>
         {
@@ -74,8 +78,10 @@
             printresporatry printresporatry = new printresporatry();
             printresporatry.print("mohamed");
             #endregion
-            
-        }
-        
+            #region question 12
+            mulitble<int, string>(10, "mohamed");
+        } 
+        #endregion
+
     }
 }
