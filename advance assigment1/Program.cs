@@ -83,6 +83,13 @@
             #region QUESTION 14
             // RETURN DEFULT VALUE FOR T TYPE
             #endregion
+            #region question 14
+            safelist<int> list = new safelist<int>();
+            list.add(10);
+            list.add(20);
+            Console.WriteLine(list.get(1));
+            Console.WriteLine(list.get(3)); 
+            #endregion
         } 
         #endregion
 
