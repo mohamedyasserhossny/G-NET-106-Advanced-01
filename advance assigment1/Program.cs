@@ -31,6 +31,13 @@
         {
             Console.WriteLine(y); // مينفعش في المان ندخل ال الواي دي بي حاجه فاليو تايب
         }
+        #region question 9
+        // allow creation of new t 
+        static void testnew <t>(t obj) where t:new()
+        {
+
+        }
+        #endregion
         #endregion
         #endregion
         static void Main(string[] args)
