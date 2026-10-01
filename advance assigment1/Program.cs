@@ -19,6 +19,13 @@
             }
             return b;
         }
+        #region question 7
+        // struct is a constriant for value type 
+        static void print<T> (T x ) where T:struct
+        {
+            Console.WriteLine(x); // مينفعش في المان ندخل ال اكس دي بي حاجه سترينج او ريفرنس تايب
+        }
+        #endregion
         static void Main(string[] args)
         {
             
@@ -52,6 +59,7 @@
             printresporatry printresporatry = new printresporatry();
             printresporatry.print("mohamed");
             #endregion
+            
         }
         
     }
