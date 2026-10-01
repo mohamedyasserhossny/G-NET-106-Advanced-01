@@ -47,6 +47,11 @@
             #region question 5
             Console.WriteLine(findmax(ref a, ref b));
             #endregion
+            #region question 6
+            // inteface that use genric type and any class implement them spicify type argument 
+            printresporatry printresporatry = new printresporatry();
+            printresporatry.print("mohamed");
+            #endregion
         }
         
     }
